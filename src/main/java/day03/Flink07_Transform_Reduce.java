@@ -6,7 +6,7 @@ import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
-public class Flink06_Transform_Reduce {
+public class Flink07_Transform_Reduce {
     /*
     需求：
     1. 从端口接收水位传感器数据
