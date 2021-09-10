@@ -6,17 +6,8 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Project: flink<br/>
- * Package: day02<br/>
- * Version: 1.0<br/>
- * Author: wjun<br/>
- * Description:
- * <br/>
- * Created by hc on 2021/09/08 18:03<br/>
- * © 1996 - 2021 Zhejiang Hong Cheng Computer Systems Co., Ltd.
- */
-public class Flink02_Source_Collection {
+
+public class Flink01_Source_Collection {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 

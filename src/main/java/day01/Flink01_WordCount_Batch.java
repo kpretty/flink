@@ -8,16 +8,7 @@ import org.apache.flink.api.java.operators.*;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
 
-/**
- * Project: flink<br/>
- * Package: day01<br/>
- * Version: 1.0<br/>
- * Author: wjun<br/>
- * Description:
- * <br/>
- * Created by hc on 2021/09/03 16:48<br/>
- * © 1996 - 2021 Zhejiang Hong Cheng Computer Systems Co., Ltd.
- */
+
 public class Flink01_WordCount_Batch {
     public static void main(String[] args) throws Exception {
         // 1.获取执行环境

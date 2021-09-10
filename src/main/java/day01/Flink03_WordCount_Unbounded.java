@@ -5,16 +5,7 @@ import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
-/**
- * Project: flink<br/>
- * Package: day01<br/>
- * Version: 1.0<br/>
- * Author: wjun<br/>
- * Description:
- * <br/>
- * Created by hc on 2021/09/03 17:43<br/>
- * © 1996 - 2021 Zhejiang Hong Cheng Computer Systems Co., Ltd.
- */
+
 public class Flink03_WordCount_Unbounded {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

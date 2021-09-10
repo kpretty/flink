@@ -9,16 +9,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Project: flink<br/>
- * Package: day03<br/>
- * Version: 1.0<br/>
- * Author: wjun<br/>
- * Description:
- * <br/>
- * Created by hc on 2021/09/10 09:36<br/>
- * © 1996 - 2021 Zhejiang Hong Cheng Computer Systems Co., Ltd.
- */
+
 public class Flink03_Transform_Distinct {
     // 接收端口数据，进行单词按空格拆分，并进行去重输出（即每个单词只会输出一次）
     public static void main(String[] args) throws Exception {

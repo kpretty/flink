@@ -10,16 +10,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
-/**
- * Project: flink<br/>
- * Package: day02<br/>
- * Version: 1.0<br/>
- * Author: wjun<br/>
- * Description:
- * <br/>
- * Created by hc on 2021/09/09 16:45<br/>
- * © 1996 - 2021 Zhejiang Hong Cheng Computer Systems Co., Ltd.
- */
+
 public class Flink04_Source_MySource {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
