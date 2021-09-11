@@ -12,7 +12,6 @@ import java.util.Properties;
 public class Flink03_Source_Kafka {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.enableCheckpointing(1);
 
         Properties properties = new Properties();
         properties.setProperty("bootstrap.servers", "192.168.2.225:9092");
