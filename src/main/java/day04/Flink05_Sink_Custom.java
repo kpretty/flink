@@ -28,7 +28,7 @@ public class Flink05_Sink_Custom {
         }).returns(Types.POJO(WaterSensor.class));
 
         // 自定义 Sink 写入 Mysql 中
-        mapDS.addSink(new MySQLRichSinkFunction("jdbc:mysql://rm-bp11rb5719vqrplkipo.mysql.rds.aliyuncs.com:3306", "xxy", "Xxy1998_"));
+        mapDS.addSink(new MySQLRichSinkFunction("jdbc:mysql://xxx:3306", "xxx", "xxx"));
 
         env.execute();
     }

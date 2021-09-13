@@ -39,9 +39,9 @@ public class Flink04_Sink_JDBC {
                 }, JdbcExecutionOptions.builder().withBatchSize(1).build()
                 , new JdbcConnectionOptions.JdbcConnectionOptionsBuilder()
                         .withDriverName("com.mysql.cj.jdbc.Driver")
-                        .withUrl("jdbc:mysql://rm-bp11rb5719vqrplkipo.mysql.rds.aliyuncs.com:3306")
-                        .withUsername("xxy")
-                        .withPassword("Xxy1998_")
+                        .withUrl("jdbc:mysql://xxx:3306")
+                        .withUsername("xxx")
+                        .withPassword("xxx")
                         .build()));
 
         env.execute();
