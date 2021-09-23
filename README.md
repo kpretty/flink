@@ -19,7 +19,7 @@ Apache Flink 是一个框架和分布式处理引擎，用于在无边界和有�
 2. <a href="https://kpretty.tech/archives/flink8" target="_blank">Flink 高阶编程：时间语义</a>
 3. <a href="https://kpretty.tech/archives/flink9" target="_blank">Flink 高阶编程：状态编程</a>
 4. <a href="https://kpretty.tech/archives/flink10" target="_blank">Flink 高阶编程：定时器</a>
-5. Flink 高阶编程：容错机制
+5. <a href="https://kpretty.tech/archives/flink11" target="_blank">Flink 高阶编程：容错机制</a>
 6. Flink 高阶编程：CEP编程
 7. Flink 高阶编程：Table API 
 8. FLink 高级编程：Flink SQL
